@@ -1,0 +1,268 @@
+*{   margin:0;
+    padding:0;
+    background: #E5E5E5;
+    font-family: "Inter" sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    
+    
+}
+main{
+      position:absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      align-content: center;
+     
+}
+.input-text{
+    position: relative;
+    height:75%;
+    margin-left:1%;
+    
+}
+h5{
+    width: 336px;
+height: 58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+/* or 29px */
+
+text-align: center;
+
+/* Gray/gray-500 */
+
+color: #343A40;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+p{
+    width: 336px;
+height: 48px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+text-align: center;
+
+/* Gray/gray-400 */
+
+color: #495057;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.input-text-area{
+    position:relative;
+    height:75%;
+    width: 80%;
+    min-height:400px;
+    margin-top:5%;
+    margin-left:8%;
+}
+
+header{
+    
+    position:relative;
+    width: 100%;
+    height:20%;
+    margin-top:3%;
+    margin-left:4%;
+}
+.selector1{
+    position: absolute;
+    
+    margin-left:4%;
+    width:60%;
+    height:70%;
+    align-content: center;
+    text-align: center;
+    
+}
+.selector2{
+    align-items: center;
+    margin-top:0;
+    margin-left:1%;
+    width:30%;
+    height:71%;
+   position:absolute;
+    right:10%;
+   
+      
+
+/* White */
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+}
+.botones{
+    display:inline;
+text-align: center;
+align-content: center;
+width: 100%;
+height: 100%;
+}
+.boton{
+display: inline;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+width: 328px;
+height: 67px;
+background: #0A3871;
+border-radius: 24px;
+flex: none;
+order: 0;
+flex-grow: 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* White */
+
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+.boton2{
+    display:inline;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    
+    /* White */
+    
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    }
+
+.boton3
+{
+  
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+display:inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+height: 67px;
+    background: #D8DFE8;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+color: #0A3871;
+
+margin-bottom:20px ;
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+    
+    h6{
+        /* Solo letras minúsculas y sin acentos */
+        display:inline-block;
+
+width: 205px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+/* identical to box height, or 18px */
+
+
+/* Gray/gray-400 */
+
+color: #495057;
+
+opacity: 0.8;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+    }
+#notFound {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        /*display: none;*/
+    }
+    #resultados{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        height: 100%;
+        width:100%;
+        position: relative;
+    }
