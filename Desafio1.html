@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador de texto --Desafio Oracle One 1</title>
+        <link rel="stylesheet" href="./css/estilo.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap" rel="stylesheet">
+    </head>
+    <body >
+        
+          <header >
+              <img src="./img/logo.png">
+          </header>
+        <main >
+          <section class="selector1" >
+              <textarea type="text" class="input-text" placeholder="Ingrese el texto aqui" cols="40" row="20" ></textarea>
+              <div id="mensajeerror" style="width: 100%; display:inline-block;align-content:left;">
+                <img src="./img/Vector.png">
+                <h6>Solo letras minúsculas y sin acentos</h6>
+              </div>
+              <div class="botones">
+                    
+                    <button type="button" class="boton" onclick="btnecriptar();">Encriptar!</button>
+                    <button type="button" class="boton2" onclick="btndesencriptar();">Desencriptar!</button>
+              </div>
+             </section>
+             <section  class="selector2">
+                 <div id="resultados">
+                 <textarea type="text" readonly="" class="input-text-area"  cols="18" row="60"></textarea>
+                 <br>
+                 <button type="button" class="boton3" onclick="btncopiar();">Copiar</button>
+                </div>
+                <div id="noexiste" style="height: 100%;">
+                    <img class="img_noexiste" src="./img/Muñeco.png" alt>
+                    <h5>Ningún mensaje fue encontrado</h5>
+                  <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+                </div>
+             </section>
+           
+           
+
+        </main>
+    </body>
+    <script src="./js/codigo.js"></script>
+</html>
